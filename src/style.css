@@ -1,3 +1,93 @@
+.container {
+  font-family: "Spartan", sans-serif;
+  margin-top: 50px;
+}
+
+.form-search {
+  position: relative;
+  left: 500px;
+  top: -15px;
+}
+
+.search-bar,
+.submit-button {
+  background-color: #fbf4f9;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+button {
+  background-color: #fbf4f9;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  position: relative;
+  left: 500px;
+  top: 80px;
+}
+
 h1 {
-  color: aqua;
+  text-align: center;
+  font-weight: thin;
+  font-size: 50px;
+  margin-top: 50px;
+  color: #f6e5f5;
+}
+
+.row {
+  text-align: center;
+  margin: 20px 20px;
+}
+
+.card,
+.card-body {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: none;
+  background: transparent;
+}
+h5 {
+  margin-top: -20px;
+  font-size: 30px;
+}
+
+h6 {
+  font-size: 20px;
+  font-weight: thin;
+}
+.day1,
+.day2,
+.day3,
+.day4,
+.day5 {
+  font-size: 12px;
+  margin: 0 auto;
+  padding: 0px 0px;
+  margin-top: 10px;
+  text-align: center;
+  border: none;
+  color: #f6e7e6;
+  margin-bottom: -50px;
+}
+.current-temp,
+.current-date,
+.condition-comment1,
+.condition-comment2 {
+  font-size: 20px;
+  color: #b9cced;
+}
+
+.current-date,
+.condition-comment2 {
+  margin-bottom: 50px;
+}
+.credit {
+  color: #f6e5f5;
+  text-decoration: none;
+}
+a:hover {
+  color: antiquewhite;
 }
