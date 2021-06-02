@@ -1,6 +1,9 @@
 .container {
   font-family: "Spartan", sans-serif;
-  margin-top: 50px;
+  margin: 100px auto;
+  border: 1px solid #b9cced;
+  border-radius: 10px;
+  max-width: 1000px;
 }
 
 .form-search {
@@ -19,6 +22,7 @@
 
 button {
   background-color: #fbf4f9;
+  color: gray;
   border: none;
   border-radius: 10px;
   padding: 10px;
@@ -87,6 +91,7 @@ h6 {
 .credit {
   color: #f6e5f5;
   text-decoration: none;
+  font-size: 10px;
 }
 a:hover {
   color: antiquewhite;
