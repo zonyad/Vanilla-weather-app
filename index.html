@@ -17,6 +17,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="src/style.css" />
+    
     <title>What's the temp?</title>
   </head>
   <body>
@@ -41,12 +42,15 @@
               <h1 id="city">
                 denver <br />
                 colorado <br />
+               
+                <img src="http://openweathermap.org/img/wn/04d@2x.png" id="current-icon" class="float-left" />
+                
               </h1>
 
               <div class="row">
                 <div class="col-6">
-                  <div class="current-temp" id="currentTemp">29°f</div>
-                  <div class="current-date">friday 4.16</div>
+                  <div class="current-temp">  <span id="currentTemp"> 29 </span> <span class ="units"> °C </span></div>
+                  <div class="current-date">friday <span id="current-time"> 13:00 </span> </div>
                 </div>
                 <div class="col-6">
                   <div class="condition-comment1" id="current-description">
@@ -55,56 +59,21 @@
                   <div class="condition-comment2">so whatever 🙄</div>
                 </div>
 
-                <div class="card day1" style="max-width: 80px">
-                  <div class="card-body">
-                    <h5 class="card-title emoji1">🌥</h5>
-                    <h6 class="card-title temp1">45°f</h6>
-
-                    <p class="card-text">saturday</p>
-                  </div>
-                </div>
-                <div class="card day2" style="max-width: 80px">
-                  <div class="card-body">
-                    <h5 class="card-title emoji2">🌤</h5>
-                    <h6 class="card-title temp2">57°f</h6>
-                    <p class="card-text">sunday</p>
-                  </div>
-                </div>
-                <div class="card day3" style="max-width: 80px">
-                  <div class="card-body">
-                    <h5 class="card-title emoji3">🌧</h5>
-                    <h6 class="card-title temp3">40°f</h6>
-                    <p class="card-text">monday</p>
-                  </div>
-                </div>
-                <div class="card day4" style="max-width: 80px">
-                  <div class="card-body">
-                    <h5 class="card-title emoji4">🌥</h5>
-                    <h6 class="card-title temp4">41°f</h6>
-                    <p class="card-text">tuesday</p>
-                  </div>
-                </div>
-                <div class="card day5" style="max-width: 80px">
-                  <div class="card-body">
-                    <h5 class="card-title emoji5">🌥</h5>
-                    <h6 class="card-title temp5">47°f</h6>
-                    <p class="card-text">wednesday</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <a
+              
+                  <div class="current-humidity"> Humidity: <span id="currentHumid">29 </span> %</div>
+                  <div class="current-wind"> Wind: <span id="currentWind"> 22 </span> km/h </div>
+                 <div><a
         href="https://github.com/zonyad/Weather-App"
         target="_blank"
         class="credit"
       >
         Open source code by Zonya Dawson
       </a>
-    </div>
-
+    </div> 
+                 </div>    
+               
+         
+                
     <script src="src/app.js"></script>
   </body>
 </html>
