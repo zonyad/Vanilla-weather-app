@@ -40,16 +40,21 @@
               </form>
 
               <h1 id="city">
-                denver <br />
-                colorado <br />
+                Denver
+             
+               <span> <img src="http://openweathermap.org/img/wn/04d@2x.png"  id="icon" /> </span> 
                
-                <img src="http://openweathermap.org/img/wn/04d@2x.png" id="current-icon" class="float-left" />
-                
               </h1>
 
               <div class="row">
                 <div class="col-6">
-                  <div class="current-temp">  <span id="currentTemp"> 29 </span> <span class ="units"> °C </span></div>
+                  <div class="current-temp">  <span id="currentTemp"> 29 </span>  
+                     <span class="units"
+                    ><a href="#" id="celsius-link" class="active">°C</a> |
+                    <a href="#" id="fahrenheit-link">°F</a></span
+                  ></div>
+                
+                 
                   <div class="current-date">friday <span id="current-time"> 13:00 </span> </div>
                 </div>
                 <div class="col-6">
@@ -62,18 +67,17 @@
               
                   <div class="current-humidity"> Humidity: <span id="currentHumid">29 </span> %</div>
                   <div class="current-wind"> Wind: <span id="currentWind"> 22 </span> km/h </div>
-                 <div><a
+                 <div>
+                   <a
         href="https://github.com/zonyad/Weather-App"
         target="_blank"
         class="credit"
       >
         Open source code by Zonya Dawson
       </a>
-    </div> 
-                 </div>    
-               
-         
-                
+        </div>  
+    </div>        
     <script src="src/app.js"></script>
+
   </body>
 </html>
