@@ -85,6 +85,19 @@ h6 {
 .condition-comment2 {
   margin-bottom: 50px;
 }
+.forecast-day {
+  margin-top: 20px;
+  text-align: center;
+  color: #f6e5f5;
+  font-size: 16px;
+}
+.weather-forecast {
+  margin-top: 20px;
+  text-align: center;
+  color: #b9cced;
+  font-size: 13px;
+}
+
 .credit {
   color: #f6e5f5;
   text-decoration: none;
