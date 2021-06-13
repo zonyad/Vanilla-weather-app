@@ -62,12 +62,16 @@ h6 {
   font-size: 20px;
   font-weight: thin;
 }
-.last-up,
+
 .current-temp,
-.current-date,
 .condition-comment1,
 .condition-comment2 {
   font-size: 20px;
+  color: #b9cced;
+}
+.current-date,
+.last-up {
+  font-size: 15px;
   color: #b9cced;
 }
 
